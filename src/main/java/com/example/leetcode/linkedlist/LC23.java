@@ -9,7 +9,7 @@ public class LC23 {
         ListNode dummuy = new ListNode(-1);
         ListNode p = dummuy;
 
-        PriorityQueue<ListNode> queue = new PriorityQueue<>(lists.length, (a, b)->(a.val - b.val));
+        PriorityQueue<ListNode> queue = new PriorityQueue<>(lists.length, Comparator.comparingInt(a -> a.val));
 
         // 将 k 个链表的头结点加入最小堆
         for (ListNode head : lists) {

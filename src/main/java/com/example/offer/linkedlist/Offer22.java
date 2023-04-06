@@ -1,4 +1,4 @@
-package com.example.offer;
+package com.example.offer.linkedlist;
 
 public class Offer22 {
     public ListNode getKthFromEnd(ListNode head, int k) {
