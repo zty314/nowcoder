@@ -22,11 +22,11 @@ public class ShoppingCart {
             int v = sc.nextInt();
             int p = sc.nextInt();
             int q = sc.nextInt();
-            if(null != Gs[i]){
+            if (null != Gs[i]) {
                 Gs[i].v = v;
                 Gs[i].p = p;
                 Gs[i].q = q;
-            }else{
+            } else {
                 Gs[i] = new good(v, p, q);
             }
 

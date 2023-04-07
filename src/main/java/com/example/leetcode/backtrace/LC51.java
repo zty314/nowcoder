@@ -31,7 +31,7 @@ public class LC51 {
             }
             String line = chessboard.get(row);
             StringBuilder builder = new StringBuilder(line);
-            builder.setCharAt(i,'Q');
+            builder.setCharAt(i, 'Q');
             chessboard.set(row, builder.toString());
             backTrace(chessboard, row + 1);
             chessboard.set(row, line);

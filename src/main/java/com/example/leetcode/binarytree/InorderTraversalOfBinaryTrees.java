@@ -12,12 +12,12 @@ public class InorderTraversalOfBinaryTrees {
     }
 
     public void inorder(TreeNode root, List<Integer> res) {
-        if(root == null){
+        if (root == null) {
             return;
         }
-        inorder(root.left,res);
+        inorder(root.left, res);
         res.add(root.val);
-        inorder(root.right,res);
+        inorder(root.right, res);
     }
 
 

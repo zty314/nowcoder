@@ -18,7 +18,7 @@ public class LastWordLength {
         int length = str.length();
         int count = 0;
         for (int i = length - 1; i >= 0; i--) {
-            if (str.charAt(i)==' ') { // 或者 if (str.substring(i, i + 1).equals(" ")) {
+            if (str.charAt(i) == ' ') { // 或者 if (str.substring(i, i + 1).equals(" ")) {
                 break;
             }
             count++;

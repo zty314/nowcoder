@@ -7,7 +7,7 @@ public class Offer22 {
             start = start.next;
         }
         ListNode end = head;
-        while(start != null){
+        while (start != null) {
             start = start.next;
             end = end.next;
         }

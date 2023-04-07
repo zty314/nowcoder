@@ -11,7 +11,7 @@ public class Offer55 {
     }
 
     public void reverse(TreeNode root, int depth) {
-        if(null == root){
+        if (null == root) {
             return;
         }
         depth++;

@@ -50,7 +50,7 @@ public class CoordinateMovement {
             }
             boolean offset = true;
             for (int i = 1; i < chars.length; i++) {
-                if(!Character.isDigit(chars[i])){
+                if (!Character.isDigit(chars[i])) {
                     offset = false;
                     break;
                 }

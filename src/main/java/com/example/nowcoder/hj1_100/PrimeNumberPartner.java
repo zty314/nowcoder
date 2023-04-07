@@ -6,7 +6,6 @@ import java.util.Scanner;
 /**
  * 匈牙利算法是啥
  * todo
- *
  */
 public class PrimeNumberPartner {
 

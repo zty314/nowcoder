@@ -27,7 +27,7 @@ public class OfferII083 {
             }
             trace.add(nums[i]);
             visited[i] = true;
-            backTrace(visited,nums,trace);
+            backTrace(visited, nums, trace);
             trace.removeLast();
             visited[i] = false;
         }

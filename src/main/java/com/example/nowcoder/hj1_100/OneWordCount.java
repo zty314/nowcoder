@@ -23,7 +23,7 @@ public class OneWordCount {
         char c = in.nextLine().toLowerCase().toCharArray()[0];
         int x = 0;
         for (int i = 0; i < chars.length; i++) {
-            if(c==chars[i]){
+            if (c == chars[i]) {
                 x++;
             }
         }
